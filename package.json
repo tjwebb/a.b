@@ -1,6 +1,6 @@
 {
   "name": "a.b",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lodash/Underscore mixin supporting deep object property access using dot notation",
   "main": "index.js",
   "scripts": {
