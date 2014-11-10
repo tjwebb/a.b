@@ -21,5 +21,8 @@ describe('a.b', function () {
       assert(_.isUndefined(_.dot(deepObject, 'x.y')));
       assert(_.isUndefined(_.dot(deepObject, new Date())));
     });
+    it('should correctly search deep path using an array as input', function () {
+      assert.equal(_.dot(deepObject, [ 'a', 'b', 'c' ]), 1);
+    });
   });
 });
